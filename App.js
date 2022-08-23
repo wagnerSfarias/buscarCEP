@@ -133,7 +133,6 @@ export default function App() {
         <Text style={styles.resultText}>Cidade: {cepUser.localidade}</Text>
         <Text style={styles.resultText}>UF: {cepUser.uf}</Text>
        </View>
-      
       }
     
       </ImageBackground> 
