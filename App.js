@@ -131,7 +131,7 @@ export default function App() {
         <Text style={styles.resultText}>Logradouro: {cepUser.logradouro}</Text>
         <Text style={styles.resultText}>Bairro: {cepUser.bairro}</Text>
         <Text style={styles.resultText}>Cidade: {cepUser.localidade}</Text>
-        <Text style={styles.resultText}>Estado: {cepUser.uf}</Text>
+        <Text style={styles.resultText}>UF: {cepUser.uf}</Text>
        </View>
       
       }
@@ -196,7 +196,8 @@ resultText:{
   fontSize:22,
   color: '#fff',
   fontWeight:'bold',
-  textAlign:'center'
+  textAlign:'center',
+  paddingBottom:10
 }
 
 })
